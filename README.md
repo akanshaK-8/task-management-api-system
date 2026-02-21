@@ -179,7 +179,10 @@ php artisan test
 ---
 
 ## API Documentation
-- Postman collection included in repository.
+- A ready-to-use Postman collection is included in the root of this repository.
+- After getting success response from Register or login endpoint copy the `access_token` and update in the Authorization tab of postman collection "Task Management Api"
+- This will inherit the authorization header for all the protected apis.
+
 
 ### HTTP status code
 | Code  | Description             | 
